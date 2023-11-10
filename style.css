@@ -1,0 +1,111 @@
+html,
+body{
+  overflow-x: hidden;
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.header{
+  position: fixed;
+  width: 100%;
+  padding-left: 50px;
+  mix-blend-mode: difference;
+  overflow: hidden;
+}
+
+section {
+  min-width: 50vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4ch;
+}
+
+.sec-1{
+  background-image: url(https://i.pinimg.com/474x/8d/8a/9f/8d8a9f007e10960f310b80544e586954.jpg);
+  height: 500px;
+  width: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  transition: transform .5s ease;
+  mix-blend-mode: overlay;
+}
+
+.sec-2{
+  overflow: hidden;
+  mix-blend-mode: difference;
+  width: fit-content;
+  margin-left:10%
+}
+
+.sec-3{
+  background-image: url(https://i.pinimg.com/474x/54/1d/8c/541d8c27c027b0a6af904dab8a91f80c.jpg);
+  height: 500px;
+  width: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  transition: transform .5s ease;
+}
+
+.sec-4{
+  overflow: hidden;
+  mix-blend-mode: difference;
+  width: fit-content;
+  margin-left:10%
+}
+
+.sec-5{
+  background-image: url(https://i.pinimg.com/474x/af/c1/05/afc1050e654935909423554725e12f93.jpg);
+  height: 500px;
+  width: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  transition: transform .5s ease;
+}
+
+.sec-6{
+  overflow: hidden;
+  mix-blend-mode: difference;
+  width: fit-content;
+  margin-left:10%
+}
+
+img {
+  display: flex;
+  height:auto;
+  width:100%;
+  transition: transform .5s ease;
+}
+
+.sec-1:hover{
+  transform: scale(1.1);
+}
+.sec-3:hover{
+  transform: scale(1.1);
+}
+.sec-5:hover{
+  transform: scale(1.1);
+}
+
+p{
+  margin: 0;
+  padding: 0;
+  font-size: 9;
+}
+
+button{
+  background-size:contain;
+  background: transparent;
+  border: none !important;
+  font-size:0;
+}
